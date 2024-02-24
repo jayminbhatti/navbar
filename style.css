@@ -1,0 +1,40 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+
+.navbar{
+    width: 100%;
+    height: 13px;
+    display: flex;
+    background-color: aqua;
+}
+
+.navbar ul{
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    gap: 9px;
+    font-size: 10px;
+    font-family: monospace
+}
+
+@media (max-width:450px){
+    .navbar{
+        width: 100%;
+        height: px;
+        display: flex;
+        background-color: rgb(26, 41, 41);
+    }
+    
+    .navbar ul{
+        color:white;
+        display: flex;
+        text-decoration: none;
+        list-style: none;
+        gap: 9px;
+        font-size: 10px;
+        font-family: monospace
+    }
+}
